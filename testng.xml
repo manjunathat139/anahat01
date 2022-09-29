@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+
+  <test name="FirefoxTestCases">
+  
+  <parameter name="browser" value="FF"/>
+    <classes>
+    
+      <class name="com.anahat.qa.testcases.logtest"/>
+      
+    </classes>
+    
+  </test> <!-- Test -->
+  
+  <test name="ChormeTestCases">
+  
+  <parameter name="browser" value="chrome"/>
+    <classes>
+    
+      <class name="com.anahat.qa.testcases.logtest"/>
+      
+    </classes>
+    
+  </test> <!-- Test -->
+  
+ 
+</suite> <!-- Suite -->
